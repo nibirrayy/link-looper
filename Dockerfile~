@@ -1,7 +1,8 @@
 FROM ubuntu
 
-RUN apt-get install firefox
-RUN apt-get install wmctrl xdotool
+RUN apt-get update -qq
+RUN apt-get install -qqy firefox
+RUN apt-get install -qqy wmctrl xdotool
 
 WORKDIR /link-looper
 
