@@ -7,4 +7,4 @@ WORKDIR /link-looper
 RUN pwd
 
 
-ENTRYPOINT ["./loop.sh"]
+ENTRYPOINT ["loop.sh"]
