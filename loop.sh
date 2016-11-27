@@ -1,3 +1,4 @@
+#!/bin/bash
 while :
 do
 	firefox sh.st/3G3o1
